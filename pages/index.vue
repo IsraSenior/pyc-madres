@@ -10,7 +10,7 @@
 
                 <div class="max-w-2xl text-primary p-12 relative text-center">
                     <div class="flex space-x-6 items-center justify-center mb-12">
-                        <Logo class="h-16 lg:h-28" />
+                        <Logo class="h-24 lg:h-28" />
 
                     </div>
                     <div class="space-y-6 mt-6 font-houschka text-2xl lg:text-3xl font-normal">
@@ -28,7 +28,7 @@
                         </p>
 
                         <div class="flex items-center justify-center">
-                            <img class="h-10 lg:h-20"
+                            <img class="h-20"
                                 src="https://www.thenailbarbeauty.com/cdn/shop/files/TNB_Main_Logo_-_Color_a95bfdae-7f5c-45ab-8609-5905ed12ce03_1200x@2x.svg?v=1686856720"
                                 alt="">
                         </div>
