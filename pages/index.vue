@@ -14,24 +14,25 @@
 
                     </div>
                     <div class="space-y-6 mt-6 font-houschka text-2xl lg:text-3xl font-normal">
-                        <p>
+                        <!-- <p>
                             Te esperamos este próximo <br>
                             <b>Viernes 9 de Mayo</b> <br> en nuestro salón
-                        </p>
+                        </p> -->
                         <h1 class="text-5xl lg:text-7xl font-normal font-agilera uppercase">
                             Mes de las <br>
                             <span class="text-6xl lg:text-8xl">Madres</span>
                         </h1>
                         <p>
-                            Disfrutemos juntas de una copa <br class="hidden lg:block">
-                            en ocasión de las madres
+                            Disfrutemos juntas de una copa 
+                            <!-- <br class="hidden lg:block">
+                            en ocasión de las madres -->
                         </p>
 
-                        <div class="flex items-center justify-center">
+                        <!-- <div class="flex items-center justify-center">
                             <img class="h-20"
                                 src="https://www.thenailbarbeauty.com/cdn/shop/files/TNB_Main_Logo_-_Color_a95bfdae-7f5c-45ab-8609-5905ed12ce03_1200x@2x.svg?v=1686856720"
                                 alt="">
-                        </div>
+                        </div> -->
                     </div>
                     <div
                         class="space-x-0 md:space-x-6 flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-center w-full mt-12">
@@ -80,7 +81,7 @@
                                     @click.prevent="modalType = null">X</button>
                                 <Gallery v-if="modalType === 'salones'" />
                                 <div v-if="modalType === 'seleccion'" class="flex items-center justify-center">
-                                    <img class="h-[80vh] object-contan object-center" src="/canva-especial.webp" alt="">
+                                    <img class="h-[80vh] object-contain object-center" src="/canva-especial.webp" alt="">
                                 </div>
                             </div>
                         </div>
