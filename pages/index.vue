@@ -1,6 +1,6 @@
 <template>
     <div class="bg-[#fef9f3]">
-        <section class="relative lg:py-8 h-screen flex items-center justify-center overflow-hidden">
+        <section class="relative lg:py-8 lg:h-screen flex items-center justify-center overflow-hidden">
             <div
                 class="container isolate h-full flex items-center justify-center transform overflow-hidden shadow bg-[#eee5d4] relative">
                 <div class="border border-primary absolute inset-5"></div>
@@ -23,7 +23,7 @@
                             <span class="text-6xl lg:text-8xl">Madres</span>
                         </h1>
                         <p>
-                            Disfrutemos juntas de una copa <br>
+                            Disfrutemos juntas de una copa <br class="hidden lg:block">
                             en ocasión de las madres
                         </p>
 
