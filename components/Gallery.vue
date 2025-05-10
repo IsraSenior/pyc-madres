@@ -33,6 +33,10 @@ const images = ref([
     'salon-10.webp',
     'salon-11.webp',
     'salon-12.webp',
+    'salon-13.webp',
+    'salon-14.webp',
+    'salon-15.webp',
+    'salon-16.webp',
 ])
 
 </script>
