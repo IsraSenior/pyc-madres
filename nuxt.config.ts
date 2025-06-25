@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Mes de las madres | Punto & Corcho',
+      title: 'Punto & Corcho',
       htmlAttrs: {
         lang: 'es',
       },
