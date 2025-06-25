@@ -19,20 +19,12 @@
                             <b>Viernes 9 de Mayo</b> <br> en nuestro salón
                         </p> -->
                         <h1 class="text-5xl lg:text-7xl font-normal font-agilera uppercase">
-                            Mes de las <br>
-                            <span class="text-6xl lg:text-8xl">Madres</span>
+                            Mes de los <br>
+                            <span class="text-6xl lg:text-8xl">Padres</span>
                         </h1>
                         <p>
-                            ¡Disfrutemos juntas de una copa!
-                            <!-- <br class="hidden lg:block">
-                            en ocasión de las madres -->
+                            ¡Disfrutemos juntos de una copa!
                         </p>
-
-                        <!-- <div class="flex items-center justify-center">
-                            <img class="h-20"
-                                src="https://www.thenailbarbeauty.com/cdn/shop/files/TNB_Main_Logo_-_Color_a95bfdae-7f5c-45ab-8609-5905ed12ce03_1200x@2x.svg?v=1686856720"
-                                alt="">
-                        </div> -->
                     </div>
                     <div
                         class="space-x-0 md:space-x-6 flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-center w-full mt-12">
@@ -40,10 +32,10 @@
                             class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
                             Nuestros salones</button>
 
-                        <button type="button" @click.prevent="openModal('seleccion')"
+                        <!-- <button type="button" @click.prevent="openModal('seleccion')"
                             class="bg-[#d77935] w-full lg:w-auto px-4 py-2.5 text-base font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
                             Selección Especial
-                        </button>
+                        </button> -->
 
                         <a href="https://wa.me/18294232486" target="_blank" type="button"
                             class="bg-[#302f2f] w-full lg:w-auto px-4 py-2.5 text-base font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
