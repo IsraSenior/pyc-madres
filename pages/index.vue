@@ -1,10 +1,10 @@
 <template>
     <div class="bg-[#fef9f3] relative isolate">
-        <img src="/background.webp" class="bg-cover bg-center absolute inset-0 h-full w-full" alt="">
+        <img src="/texture.webp" class="bg-cover bg-center absolute inset-0 h-full w-full" alt="">
 
         <section class="relative lg:py-8 h-screen flex items-center justify-center overflow-hidden">
             <div
-                class="container isolate h-full flex items-center justify-center transform overflow-hidden shadow glass relative lg:rounded-xl">
+                class="container isolate h-full flex items-center justify-center transform overflow-hidden  glass relative lg:rounded-xl">
                 <div class="border border-primary absolute inset-5 rounded-lg"></div>
 
                 <div class="inset-0 absolute bg-gradient-to-r from-0% from-secondary-900 to-70% to-transparent">
@@ -55,7 +55,7 @@
                     <div
                         class="space-x-0 md:space-x-6 flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-center w-full mt-12 border-t border-primary pt-12">
 
-                        <a href="https://wa.me/18294232486" target="_blank"
+                        <a href="https://www.instagram.com/puntoycorchord" target="_blank"
                             class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
                             Siguenos en Instagram
                         </a>
