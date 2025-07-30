@@ -56,13 +56,13 @@
                         class="space-x-0 md:space-x-6 flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-center w-full mt-12 border-t border-primary pt-12">
 
                         <a href="https://wa.me/18294232486" target="_blank"
-                            class="bg-white w-full lg:w-auto px-4 py-2.5 text-base font-semibold text-[#302f2f] shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
-                            Reserva tu evento
+                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
+                            Siguenos en Instagram
                         </a>
 
                         <a href="https://wa.me/18294232486" target="_blank"
-                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
-                            Siguenos en Instagram
+                            class="bg-[#302f2f] w-full lg:w-auto px-4 py-2.5 text-base font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
+                            Reserva tu evento
                         </a>
 
                         <a href="https://wa.me/18294232486" target="_blank"
