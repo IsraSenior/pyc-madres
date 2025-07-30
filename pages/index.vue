@@ -12,8 +12,7 @@
 
                 <div class="container text-primary p-12 relative text-center">
                     <div class="flex space-x-6 items-center justify-center lg:mb-24">
-                        <Logo class="h-20 md:h-24 lg:h-28" />
-
+                        <Logo class="h-20 md:h-24 lg:h-48" />
                     </div>
                     <div class="space-y-6 mt-6 font-houschka text-2xl lg:text-3xl font-normal">
                         <!-- <p>
@@ -32,12 +31,12 @@
                         class="gap-3 md:gap-6 flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-center w-full mt-12 flex-wrap">
 
                         <a href="https://www.instagram.com/puntoycorchord" target="_blank"
-                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-[#e9672a] w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
                             Síguenos<br /> en Instagram
                         </a>
 
                         <button type="button" @click.prevent="openModal('salones')"
-                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-[#e9672a] w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
                             Eventos<br />  Privados</button>
 
                         <!-- <button type="button" @click.prevent="openModal('seleccion')"
@@ -47,7 +46,7 @@
 
                         <a href="/carta-vinos-pyc-.pdf" download="Carta de vinos y destilados del Winebar"
                             target="_blank"
-                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-[#e9672a] w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
                             Carta de Vinos y Destilados <br /> del Wine Bar 
                         </a>
 
@@ -63,12 +62,12 @@
 
 
                          <a href="https://wa.me/18294232486" target="_blank"
-                            class="bg-[#837344] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-[#cfbfa6] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-[#302f2f] shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
                             Reservas <br /> en el Wine Bar
                         </a>
 
                         <a href="https://wa.me/18294235105" target="_blank"
-                            class="bg-[#837344] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-[#cfbfa6] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-[#302f2f] shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
                             Pedidos <br />  en la Tienda
                         </a>
 
@@ -97,7 +96,7 @@
                         <div v-if="!!modalType"
                             class="relative transform transition-all sm:my-8 sm:w-full sm:max-w-7xl w-full px-5">
                             <div>
-                                <button class="absolute -bottom-16 -rigth-5 text-white text-4xl z-50"
+                                <button class="absolute -top-6 text-white text-3xl z-50"
                                     @click.prevent="modalType = null">X</button>
                                 <Gallery v-if="modalType === 'salones'" />
                                 <div v-if="modalType === 'seleccion'" class="flex items-center justify-center">
