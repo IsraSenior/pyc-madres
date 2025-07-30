@@ -10,8 +10,8 @@
                 <div class="inset-0 absolute bg-gradient-to-r from-0% from-secondary-900 to-70% to-transparent">
                 </div>
 
-                <div class="max-w-4xl text-primary p-12 relative text-center">
-                    <div class="flex space-x-6 items-center justify-center mb-12">
+                <div class="container text-primary p-12 relative text-center">
+                    <div class="flex space-x-6 items-center justify-center lg:mb-24">
                         <Logo class="h-20 md:h-24 lg:h-28" />
 
                     </div>
@@ -29,48 +29,47 @@
                         </p> -->
                     </div>
                     <div
-                        class="space-x-0 md:space-x-6 flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-center w-full mt-12">
+                        class="gap-3 md:gap-6 flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-center w-full mt-12 flex-wrap">
 
                         <a href="https://www.instagram.com/puntoycorchord" target="_blank"
-                            class="bg-[#302f2f] w-full lg:w-auto px-4 py-2.5 text-base font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
-                            Síguenos en Instagram
+                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            Síguenos<br /> en Instagram
                         </a>
 
                         <button type="button" @click.prevent="openModal('salones')"
-                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
-                            Eventos Privados</button>
+                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            Eventos<br />  Privados</button>
 
                         <!-- <button type="button" @click.prevent="openModal('seleccion')"
-                            class="bg-[#d77935] w-full lg:w-auto px-4 py-2.5 text-base font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
+                            class="bg-[#d77935] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
                             Selección Especial
                         </button> -->
 
                         <a href="/carta-vinos-pyc-.pdf" download="Carta de vinos y destilados del Winebar"
                             target="_blank"
-                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
-                            Carta de Vinos y Destilados Wine Bar 
+                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            Carta de Vinos y Destilados <br /> del Wine Bar 
                         </a>
 
                         <!-- <a href="https://wa.me/18294232486" target="_blank"
-                            class="bg-[#302f2f] w-full lg:w-auto px-4 py-2.5 text-base font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
+                            class="bg-[#302f2f] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
                             Reserva ahora
                         </a> -->
 
                     </div>
 
                     <div
-                        class="space-x-0 md:space-x-6 flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-center w-full mt-12 border-t border-primary pt-12">
+                        class="space-x-0 md:space-x-6 flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-center w-full mt-6 lg:mt-12 border-t border-primary pt-6 lg:pt-12">
 
-                        
 
-                        <a href="https://wa.me/18294232486" target="_blank"
-                            class="bg-[#302f2f] w-full lg:w-auto px-4 py-2.5 text-base font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
-                            Reservas en el Wine Bar
+                         <a href="https://wa.me/18294232486" target="_blank"
+                            class="bg-[#837344] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            Reservas <br /> en el Wine Bar
                         </a>
 
-                        <a href="https://wa.me/18294232486" target="_blank"
-                            class="bg-[#302f2f] w-full lg:w-auto px-4 py-2.5 text-base font-semibold text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">
-                            Pedidos en  la Tienda
+                        <a href="https://wa.me/18294235105" target="_blank"
+                            class="bg-[#837344] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            Pedidos <br />  en la Tienda
                         </a>
 
                     </div>
