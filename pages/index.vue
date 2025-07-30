@@ -31,27 +31,27 @@
                         class="gap-3 md:gap-6 flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-center w-full mt-12 flex-wrap">
 
                         <a href="https://www.instagram.com/puntoycorchord" target="_blank"
-                            class="bg-[#e9672a] w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary rounded-sm min-w-[250px]">
                             Síguenos<br /> en Instagram
                         </a>
 
                         <button type="button" @click.prevent="openModal('salones')"
-                            class="bg-[#e9672a] w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary rounded-sm min-w-[250px]">
                             Eventos<br />  Privados</button>
 
                         <!-- <button type="button" @click.prevent="openModal('seleccion')"
-                            class="bg-[#d77935] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-[#d77935] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-[#cfbfa6] shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary rounded-sm min-w-[250px]">
                             Selección Especial
                         </button> -->
 
                         <a href="/carta-vinos-pyc-.pdf" download="Carta de vinos y destilados del Winebar"
                             target="_blank"
-                            class="bg-[#e9672a] w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-primary w-full lg:w-auto px-4 py-2.5 text-base cursor-pointer font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary rounded-sm min-w-[250px]">
                             Carta de Vinos y Destilados <br /> del Wine Bar 
                         </a>
 
                         <!-- <a href="https://wa.me/18294232486" target="_blank"
-                            class="bg-[#302f2f] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-[#302f2f] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-[#cfbfa6] shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary rounded-sm min-w-[250px]">
                             Reserva ahora
                         </a> -->
 
@@ -62,12 +62,12 @@
 
 
                          <a href="https://wa.me/18294232486" target="_blank"
-                            class="bg-[#cfbfa6] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-[#302f2f] shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-[#302f2f] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary rounded-sm min-w-[250px]">
                             Reservas <br /> en el Wine Bar
                         </a>
 
                         <a href="https://wa.me/18294235105" target="_blank"
-                            class="bg-[#cfbfa6] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-[#302f2f] shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary min-w-[250px]">
+                            class="bg-[#302f2f] w-full lg:w-auto px-4 py-2.5 text-base font-normal text-white shadow-xs hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary rounded-sm min-w-[250px]">
                             Pedidos <br />  en la Tienda
                         </a>
 
